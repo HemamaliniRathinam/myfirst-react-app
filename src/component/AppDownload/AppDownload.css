@@ -1,0 +1,49 @@
+.app-download-platforms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+
+img.store-icon {
+  width: 140px;
+  height: 60px;
+  object-fit: contain;
+}
+  img.store-icon1 {
+  width: 180px;
+  height: 80px;
+  object-fit: contain;
+}
+
+
+.store-icon:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+  opacity: 0.9; 
+}
+.store-icon1:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+  opacity: 0.9; 
+}
+@media (max-width: 600px) {
+  .store-icon {
+    width: 100px;
+    height: 35px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
